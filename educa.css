@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+    
+}
+header{
+    background-color: rgba(78, 135, 168);
+    justify-content: space-around;
+    padding: 100px;
+}
+header nav ul{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+
+header nav ul li a{
+    color: white;
+    
+}
+.sessão1{
+    padding: 250px;
+    background-image:linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+    
+}
+.sessão1 h1{
+    font-size: 45px;
+    font-weight: 45px;
+    color: rgba(0, 0, 0, 0.568);
+}
+.sessão1 p{
+    font-size: 40px;
+    font-weight: 45px;
+    
+}
+.sessão1 button{
+    background-color:white ;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.sessão1 button:hover{
+    color: green;
+    
+}
+
