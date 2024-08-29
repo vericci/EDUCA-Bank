@@ -2,23 +2,32 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    
-    
+    font-family: Verdana, Geneva, Tahom+a, sans-serif;
 }
+    
+
 header{
     background-color: rgba(78, 135, 168);
-    justify-content: space-around;
-    padding: 100px;
+    padding: 63px;
+    border: none;
+    
 }
 header nav ul{
     display: flex;
     justify-content: end;
-    color: white;
+    
 }
 
 
+header nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+
 header nav ul li a{
     color: white;
+    text-decoration: none;
+    
     
 }
 .sessão1{
@@ -37,12 +46,137 @@ header nav ul li a{
     
 }
 .sessão1 button{
-    background-color:white ;
-    font-size: 20px;
-    border-radius: 20px;
+   padding: 20px;
+   border-radius: 40px;
+   border-color: rgb(19, 153, 108);
+   font-size: 15px;
+   color: rgb(19, 153, 108);
 }
 .sessão1 button:hover{
-    color: green;
+    background-color: rgb(19, 153, 108);
+    color: white;
+    transition: 0.8s;
+    border-color: white;
+}
+
+.sessão2{
+    padding: 200px;
+    background-color: white;  
+   
+}
+.sessão2 p{
+    font-size: 50px;
+    font-weight: 40px; 
+}
+
+.sessão2 button{
+    padding: 20px;
+    border-radius: 40px;
+    color: aqua;
+    border-color: aqua;
+    font-size: 15px;
+    
+}
+    
+    
+
+.sessão2 button:hover{
+    background-color: aqua;
+    color: white;
+    transition: 0.8s;
+    border-color: white;
+
+}
+.sessão2 img{
+    width: 500px;
+    right: auto;
+    margin-left: 600px;
+    
+}
+.sessão3{
+    padding: 250px;
+    align-items: center;
+    
+   
+}
+.sessão3 h2{
+    font-size: 50px;
+    
+    text-align: center;
+}
+.sessão3 p{
+    font-size: 30px;
+    font-weight: 30px;
+    text-align: none;
     
 }
 
+
+.sessão3 button{
+    padding: 20px;
+    border-radius: 40px;
+    border-color: rgb(0, 55, 255);
+    font-size: 15px;
+    color:rgb(0, 55, 255);
+} 
+.sessão3 button:hover{
+    background-color:  rgb(0, 55, 255);
+    color: white;
+    transition: 0.8s;
+    border-color: white;
+    
+}
+.sessão3 img{
+    width: 600px;
+    align-items: center;
+}
+.sessão4{
+    background-image: url(imagem/img\ cofre\ fundo.jpg);
+    background-attachment: fixed;
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    display: flex;
+}
+.sessão4 img{
+    width: 400px;
+}
+.sessão4 h2{
+    font-size: 30px;
+    font-weight: 30px;
+    color: rgb(84, 4, 160);
+    text-align: center;
+}
+.sessão4 p{
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+    color:rgb(84, 4, 160);
+}
+.sessão4 span{
+    color: white;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.798);
+    padding: 100px;
+}
+    
+    
+  
+   
+footer img{
+    width: 250px;
+    right: auto;
+    margin-left: 550px;
+    margin-top: px;
+   
+}
+footer p{
+    color: white;
+    
+}
+footer a{
+    text-decoration: non;
+}
