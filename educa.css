@@ -175,10 +175,11 @@ header nav ul li a:hover{
 
 
 
-.sessão4{
+.sessão4{ /*criação e estilização do sessão 4 cofre*/
+    
+    padding: 250px;
     background-image: url(imagem/img\ cofre\ fundo.jpg);
     background-attachment: fixed;
-    padding: 250px;
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-around;
