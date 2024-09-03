@@ -176,53 +176,77 @@ header nav ul li a:hover{
 
 
 .sessão4{ /*criação e estilização do sessão 4 cofre*/
-    
+
     padding: 250px;
-    background-image: url(imagem/img\ cofre\ fundo.jpg);
+    background:linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%), url(imagem/img\ cofre\ fundo.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
+   
+
+
+
     background-size: cover;
-    justify-content: space-around;
+    justify-content: space-evenly;
     display: flex;
+    
 }
 .sessão4 img{
     width: 400px;
 }
+
+
 .sessão4 h2{
     font-size: 30px;
-    font-weight: 30px;
-    color: rgb(84, 4, 160);
+    font-weight: 400;
     text-align: center;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 50px;
+   
 }
 .sessão4 p{
     font-size: 20px;
-    font-weight: 20px;
+    font-weight: 400;
     text-align: center;
-    color:rgb(84, 4, 160);
+    color:white;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
 }
 .sessão4 span{
     color: yellow;
 }
 
 footer{
+    padding: 90px;
     background-color: rgba(0, 0, 0, 0.798);
-    padding: 100px;
+    text-align: center;
+   
+    
+}
+.div-privacidade{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div-privacidade p{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.419) ;
+}
+.div-privacidade a{
+    text-decoration: none;
+    color: white;
+}
+.div-privacidade a:hover{
+    color:black;
 }
     
     
   
    
 footer img{
-    width: 250px;
+    width: 400px;
     right: auto;
-    margin-left: 550px;
-    margin-top: px;
-   
-}
-footer p{
-    color: white;
+    margin-bottom: 40px;
     
-}
-footer a{
-    text-decoration: non;
 }
