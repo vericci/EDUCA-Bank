@@ -7,13 +7,13 @@
     
 
 header{
-    background-color: rgba(78, 135, 168);
+    background-color: rgba(78, 135, 168); /*cor de fundo do header*/
     padding: 63px;
     border: none;
     
 }
-header nav ul{
-    display: flex;
+header nav ul{  /*estilizando a lista não ordenada do header*/
+    display: flex; 
     justify-content: end;
     
 }
@@ -24,33 +24,44 @@ header nav ul li{
     margin: 10px;
 }
 
-header nav ul li a{
-    color: white;
-    text-decoration: none;
+header nav ul li a{/*ancora do header*/
+    color: white;/*cor da letra*/
+    text-decoration: none;/*retirando a decoração de texto*/
     
     
 }
+header nav ul li a:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+
 .sessão1{
-    padding: 250px;
-    background-image:linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
+    padding: 200px;/*preenchimento da sessão*/
+    background:linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%);
     
 }
 .sessão1 h1{
-    font-size: 45px;
-    font-weight: 45px;
+    font-size: 40px;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.568);
 }
 .sessão1 p{
-    font-size: 40px;
-    font-weight: 45px;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
     
 }
 .sessão1 button{
-   padding: 20px;
-   border-radius: 40px;
-   border-color: rgb(19, 153, 108);
-   font-size: 15px;
-   color: rgb(19, 153, 108);
+    width: 300px;
+    height: 50px;
+    border-color: rgb(19, 153, 108);
+    border-radius: 40px;
+    font-size: 15px;
+    color: rgb(19, 153, 108);
+    
+   
 }
 .sessão1 button:hover{
     background-color: rgb(19, 153, 108);
@@ -59,77 +70,111 @@ header nav ul li a{
     border-color: white;
 }
 
-.sessão2{
+.sessão2 {
     padding: 200px;
-    background-color: white;  
-   
-}
-.sessão2 p{
-    font-size: 50px;
-    font-weight: 40px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.sessão2 button{
-    padding: 20px;
+
+.div2 img {
+    width: 380px;
+    height: auto;
+    margin-left: 20px;
+}
+.div1 p {
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.div1 a button {
+    width: 300px;
+    height: 50px;
+    border-color: rgb(19, 153, 108);
     border-radius: 40px;
-    color: aqua;
-    border-color: aqua;
     font-size: 15px;
-    
-}
-    
-    
+    color: rgb(19, 153, 108);
 
-.sessão2 button:hover{
-    background-color: aqua;
+}
+.div1 a button:hover{
+    background-color: rgb(19, 153, 108);
     color: white;
     transition: 0.8s;
     border-color: white;
 
 }
-.sessão2 img{
-    width: 500px;
-    right: auto;
-    margin-left: 600px;
-    
-}
+
+/* aqui encerramos a sessão 2 */
+
+
+
+
+
+/*inicio da sessão 3*/
+
 .sessão3{
-    padding: 250px;
+    padding: 200px;
     align-items: center;
-    
+    background-color: white;
+   
    
 }
-.sessão3 h2{
-    font-size: 50px;
-    
+.sessão3 h2 {
     text-align: center;
+    color: rgb(3, 3, 88);
+    font-size: 40px;
+    margin-top: -150px;/* espaçamento em relação a sessão 2*/
+    
 }
 .sessão3 p{
-    font-size: 30px;
-    font-weight: 30px;
-    text-align: none;
+    font-size: 20px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.466);
+    margin-top: 20px;
     
 }
 
 
 .sessão3 button{
-    padding: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
     border-radius: 40px;
     border-color: rgb(0, 55, 255);
-    font-size: 15px;
     color:rgb(0, 55, 255);
-} 
+    margin-top: 40px;
+    margin-top: 40px;
+}
+    
+   
 .sessão3 button:hover{
     background-color:  rgb(0, 55, 255);
     color: white;
     transition: 0.8s;
     border-color: white;
+}
+    
+
+
+.line{
+    width: 70%; /*largura da linha*/
+    margin: 40px auto;/*espaçamento de 40 px top e botton e esquerda e direita automatica*/
+}
+
+
+    
+
+.sessão3 img{
+    width: 500px;
+    margin-left: 250px;/*espaçamento para esquerda*/
+    /*iremos alterar a formatação de alinhamento*/
     
 }
-.sessão3 img{
-    width: 600px;
-    align-items: center;
-}
+
+
+
 .sessão4{
     background-image: url(imagem/img\ cofre\ fundo.jpg);
     background-attachment: fixed;
@@ -155,7 +200,7 @@ header nav ul li a{
     color:rgb(84, 4, 160);
 }
 .sessão4 span{
-    color: white;
+    color: yellow;
 }
 
 footer{
