@@ -250,3 +250,5 @@ footer img{
     margin-bottom: 40px;
     
 }
+
+@media (max-width: 1200px) { .sessão1, .sessão2, .sessão3, .sessão4 { padding: 100px 20px; } .sessão1 h1, .sessão1 p, .div1 p, .sessão3 h2, .sessão3 p, .sessão4 h2, .sessão4 p { text-align: center; font-size: 1.5rem; } .div2 img, .sessão3 img, .sessão4 img { margin: 0 auto; display: block; width: 100%; max-width: 300px; } .div1 a button, .sessão3 button, .sessão1 button { width: 100%; max-width: 300px; margin: 10px auto; } .div-privacidade { flex-direction: column; align-items: center; } .div-privacidade p, .div-privacidade a, footer img { margin: 10px 0; } } @media (max-width: 768px) { header nav ul { flex-direction: column; align-items: center; } .sessão1, .sessão2, .sessão3, .sessão4 { padding: 50px 10px; } .sessão1 h1, .sessão1 p, .div1 p, .sessão3 h2, .sessão3 p, .sessão4 h2, .sessão4 p { text-align: center; font-size: 1.25rem; } .div2 img, .sessão3 img, .sessão4 img { width: 80%; max-width: 250px; } .div1 a button, .sessão3 button, .sessão1 button { width: 80%; margin: 10px auto; } } @media (max-width: 480px) { header { padding: 20px; } header nav ul { flex-direction: column; align-items: center; }
